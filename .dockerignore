@@ -1,0 +1,6 @@
+venv
+_pychache_
+.git
+.ipynb_checkpoints
+logs
+
