@@ -26,3 +26,11 @@ jobs:
         run: | 
           python -c "import pandas"
           python -c "import sklearn"
+
+      - name: Runt Tests
+        run: |
+          python -m pytest
+
+      - name: Build Docker Image
+        run: | 
+          docker build -t churn-api .
