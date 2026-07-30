@@ -9,6 +9,12 @@ Production-grade end-to-end ML system for churn prediction with:
 - Monitoring
 - Cloud deployment
 
+## Live Demo
+
+API : http://43.220.1.191:8000
+
+Swagger : http://43.220.1.191:8000/docs
+
 ## Tech Stack
 - Python
 - Scikit-learn
